@@ -1,0 +1,51 @@
+/* by ellen li, 2016 */
+/* favs override */
+
+@import url("../../css/style.css");
+
+html, body {
+  color: #fff;
+  background: #D38312;
+  background: -webkit-linear-gradient(to left, #D38312 , #A83279);
+  background: linear-gradient(to left, #D38312 , #A83279);
+}
+
+ul {
+    margin: 25px 0px 25px 0px;
+}
+
+.tags a:hover {
+  border-bottom: 2px solid rgba(0, 0, 0, 0);
+}
+
+.tags>a>li:hover {
+  color: #fff;
+  -webkit-transition: all 200ms ease-in;
+  -o-transition: all 200ms ease-in;
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.tags li {
+  list-style:none;
+  display:inline-block;
+  background-color: rgba(0, 0, 0, 0);
+  border-radius:5px;
+  padding:3px 9px;
+  color:#fff;
+  font-size: 0.7em;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  margin:5px 1px 5px 1px;
+  line-height:27px;
+  text-transform:uppercase;
+}
+
+.favs li {
+  list-style: decimal;
+    line-height: 175%;
+
+  margin: 25px 0px 25px 50px;
+}
+
+.favs ul {
+  font-weight: 400;
+}
